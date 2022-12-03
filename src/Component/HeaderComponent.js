@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import {Avatar} from "@material-ui/core";
 import { deepPurple, deepOrange} from '@mui/material/colors';
-import {Card, CardContent, Container} from "@material-ui/core";
+import {Card, CardContent, Container, Avatar} from "@mui/material";
 import NavBar from "./NavBar";
 import {useNavigate} from "react-router-dom";
 

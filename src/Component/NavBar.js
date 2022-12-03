@@ -3,9 +3,11 @@ import {
     AppBar,
     Toolbar,
     CssBaseline,
-    makeStyles,
-} from "@material-ui/core";
+
+} from "@mui/material";
+
 import {Link, useNavigate} from "react-router-dom";
+import {makeStyles} from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
     navlinks: {

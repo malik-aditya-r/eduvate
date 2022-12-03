@@ -1,10 +1,6 @@
 import React from 'react';
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
-import Typography from "@material-ui/core/Typography";
-import CardActions from "@material-ui/core/CardActions";
 import styled from 'styled-components';
-import {Link} from "@material-ui/core";
+import {Link, CardActions, Typography, CardContent, Card} from "@mui/material";
 import axios from 'axios';
 import {BACKEND_URL} from "../utils/constants";
 import {useNavigate} from "react-router-dom";

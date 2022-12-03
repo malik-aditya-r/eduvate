@@ -1,8 +1,6 @@
 import React, {useEffect} from 'react';
-import List from '@mui/material/List';
 import ListComponent from "./ListComponent";
-import {Container, Typography} from "@material-ui/core";
-import {Pagination, TextField, Button} from "@mui/material";
+import {Pagination, TextField, Button, Container, Typography, List} from "@mui/material";
 import {useNavigate} from "react-router-dom";
 
 import axios from "axios";
